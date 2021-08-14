@@ -1,0 +1,127 @@
+body {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 75px;
+
+    border: solid 1px #DADCE0;
+    border-radius: 4px;
+    padding: 40px;
+
+    height: auto;
+    min-height: 400px;
+    text-align: start;
+}
+
+main img {
+    width: 75px;
+    margin-bottom: 16px;
+}
+
+main h1 {
+    color: #202124;
+    text-align: center;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+main h2 {
+    color: #202124;
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+main p {
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    line-height: 1.7;
+    color: #5F6368;
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+main a {
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 14px;
+    color: #1B74E8;
+}
+
+main a:hover {
+    cursor: pointer;
+    color: #1B66C9;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: solid 1px #DADCE0;
+    border-radius: 4px;
+    background-color: transparent;
+
+    color: #202124;
+    font-size: 16px;
+
+    padding: 13px 15px;
+
+    width: 336px;
+    height: 28px;
+    margin-bottom: 12px;
+}
+
+textarea:focus, input:focus, select:focus {
+    border: solid 2px #1B74E8;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    width: 335px;
+    height: 27px;
+}
+
+.rec-password {
+    margin-bottom: 14px;
+}
+
+.bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(336px +15px);
+    height: 28px;
+    margin-top: 40px;
+}
+
+button {
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    color: #fefefe;
+
+    border: none;
+    border-radius: 4px;
+    background-color: #1B74E8;
+
+    width: 101px;
+    height: 35px;
+    transition: 0.4s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #1B66C9;
+}
