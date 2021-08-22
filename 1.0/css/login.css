@@ -14,7 +14,6 @@ main {
 
 
     margin-top: 10%;
-    width: 300px;
 }
 
 .logo {
@@ -37,7 +36,7 @@ form {
     background-color: #F7F7F7;
     border-radius: 4px;
     
-    padding: 50px;
+    padding: 30px 50px;
 }
 
 form input {
@@ -59,6 +58,7 @@ textarea:focus, input:focus, select:focus {
 .user {
     opacity: 30%;
     width: 85px;
+    margin-bottom: 12px;
 }
 
 button {
